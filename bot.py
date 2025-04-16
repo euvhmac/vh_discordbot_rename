@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 import asyncio
-from app.config import TOKEN, COMMAND_PREFIX
+from config import TOKEN, COMMAND_PREFIX
 
 intents = discord.Intents.default()
 intents.members = True
